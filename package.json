@@ -6,18 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kangyongseok/boilerplate_js.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "babel-loader": "^8.2.2",
+  "bugs": {
+    "url": "https://github.com/kangyongseok/boilerplate_js/issues"
+  },
+  "homepage": "https://github.com/kangyongseok/boilerplate_js#readme",
+  "dependencies": {
     "express": "^4.17.1",
-    "html-webpack-plugin": "^5.3.2",
-    "webpack": "^5.52.1",
-    "webpack-cli": "^4.8.0",
     "webpack-dev-middleware": "^5.1.0",
     "webpack-hot-middleware": "^2.25.0"
-  },
-  "dependencies": {
-    "@babel/polyfill": "^7.12.1"
   }
 }
