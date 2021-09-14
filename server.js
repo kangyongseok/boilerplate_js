@@ -1,10 +1,15 @@
 const express = require('express');
-const path = require('path');
-
 const app = express();
+const PORT = 3000;
 
-const webpack = require('webpack');
-const webpackDevMiddleware = require('webpack-dev-middleware');
-const webpackHotMiddleware = require('webpack-hot-middleware');
-const webpackConfig = require('./webpack.config');
-const compiler = webpack(webpackConfig);
+
+app.get('/', function (req, res) {
+  res.send('Hello World!');
+});
+
+function handelListen() {
+  console.log(`Server Start ${PORT}`)
+}
+
+app.listen(PORT, handelListen);
+
