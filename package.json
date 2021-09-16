@@ -19,5 +19,10 @@
   "homepage": "https://github.com/kangyongseok/boilerplate_js#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.53.0",
+    "webpack-dev-middleware": "^5.1.0",
+    "webpack-hot-middleware": "^2.25.1"
   }
 }

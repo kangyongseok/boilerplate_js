@@ -117,7 +117,12 @@ app.listen(PORT, handelListen);
 
 
 ## webpack
-
+```bash
+npm install webpack webpack-dev-middleware webpack-hot-middleware -D
+```
+webpack 은 번들러이다. 웹팩을 사용하면 흩어져있던 파일들을 하나의 파일로 만들 수 있고 개발환경과 실환경을 나눠서 번들링되도록 만들수도있다.
+ 
+그리고 이런 webpack 과 express 를 같이 사용하면 변경사항을 자동으로 반영하는 `hot reload` 환경을 만들 수 있다. 다른 의존성 패키지 모듈의 도움을 받아 웹팩과 express 환경설정을 통해 가능하다.
 
 
 ## babel
