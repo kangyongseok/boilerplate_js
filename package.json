@@ -1,28 +1,11 @@
 {
   "name": "boilerplate",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kangyongseok/boilerplate_js.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kangyongseok/boilerplate_js/issues"
-  },
-  "homepage": "https://github.com/kangyongseok/boilerplate_js#readme",
+  "repository": "https://github.com/kangyongseok/boilerplate_js.git",
+  "author": "강용석 <kangyongsuek@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "webpack": "^5.53.0",
-    "webpack-dev-middleware": "^5.1.0",
-    "webpack-hot-middleware": "^2.25.1"
   }
 }

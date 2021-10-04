@@ -1,15 +1,15 @@
 const express = require('express');
 const app = express();
-const PORT = 3000;
+const port = 5000;
 
+app.use(express.static(__dirname))
 
 app.get('/', function (req, res) {
-  res.send('Hello World!');
-});
+  res.sendFile(__dirname + '/index.html')
+})
 
-function handelListen() {
-  console.log(`Server Start ${PORT}`)
-}
+app.get('/test', function (req, res) {
+  res.sendFile(__dirname + '/index.html')
+})
 
-app.listen(PORT, handelListen);
-
+app.listen(port, () => { console.log(`server start PORT: ${port}`) })
